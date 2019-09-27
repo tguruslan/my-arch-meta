@@ -7,5 +7,33 @@ arch=('any')
 url="https://github.com/tguruslan/my-arch-meta"
 license=('MIT')
 depends=(
-    'vim'
+  vim
+  tmux
+  xorg
+  plasma-meta
+  packagekit-qt5
+  dialog
+  wpa_supplicant
+  wine
+  vlc
+  chromium
+  expect
+  python
+  python-pip
+  docker
+  docker-compose
+  network-manager-applet
+  networkmanager
+  htop
+  btrfs-progs
+  alsa-lib
+  alsa-plugins
+  gedit
+  lib32-vulkan-icd-loader
+  vulkan-extra-layers
+  vulkan-headers
+  vulkan-icd-loader
+  vulkan-mesa-layer
+  vulkan-tools
+  vulkan-validation-layers
 )
